@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font-face</title>
+    <style type="text/css">
+        @font-face{
+            font-family: heinrich;
+            src: url('heinrich.ttf'),
+            url('heinrich.eot');
+        }
+
+        @font-face{
+            font-family: heinrich;
+            font-size: italic;
+            src: url('heinrichitalic.ttf'),
+            url('heinrichitalic.eot');
+        }
+
+        p{
+            font-family: heinrich;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <p>onec tempus neque lacinia, consequat eros so</p>
+    <p><i>onec tempus neque lacinia, consequat eros so</i></p>
+    <p>onec tempus neque <i>lacinia, consequat </i> eros so</p>
+</body>
+</html>
